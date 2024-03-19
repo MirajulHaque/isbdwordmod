@@ -9,7 +9,9 @@ The ISBD Wordlist Modifier Tool (isbdwordmod) is a command-line utility designed
 To install isbdwordmod, follow these steps:
 1. Download the tool: Clone or download the isbdwordmod.py from the GitHub repository.
 Link: https://github.com/MirajulHaque/isbdwordmod 
-
+```bash
+git clone https://github.com/MirajulHaque/isbdwordmod.git
+```
 2. Give Permission:
 
 ```bash 
