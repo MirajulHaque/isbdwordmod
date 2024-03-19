@@ -25,20 +25,21 @@ sudo mv isbdwordmod.py /usr/local/bin/isbdwordmod
 This command moves the script to the /usr/local/bin/ directory, which is commonly included in the PATH variable. You may need to enter your password to authorize the move.
 
 ## Usage
-Run the tool: Once the script is moved to a binary directory, you can use isbdwordmod from any location in your terminal. Open a terminal and run the following command:
+1. Run the tool:
+- Once the script is moved to a binary directory, you can use isbdwordmod from any location in your terminal. Open a terminal and run the following command:
 ```bash 
 isbdwordmod --file <wordlist_file> --interval <interval> --suffix <suffix>
 ```
 
-Replace <wordlist_file> with the path to your wordlist file, <interval> with the interval for adding the string, and <suffix> with the string to be added after each interval.
+- Replace <wordlist_file> with the path to your wordlist file, <interval> with the interval for adding the string, and <suffix> with the string to be added after each interval.
 
-For example:
+- For example:
 ```bash
 isbdwordmod --file wordlist.txt --interval 4 --suffix infosecbd
 ```
 This command will modify the wordlist.txt file by adding the string "newword1" after every 4 words.
 
-Check for updates: To check for updates and perform an update if available, run the following command:
+2. Check for updates: To check for updates and perform an update if available, run the following command:
 
 ```bash
 isbdwordmod --update
