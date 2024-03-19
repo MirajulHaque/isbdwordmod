@@ -7,12 +7,13 @@ The ISBD Wordlist Modifier Tool (isbdwordmod) is a command-line utility designed
 
 ## Installation
 To install isbdwordmod, follow these steps:
-Download the tool: Clone or download the isbdwordmod.py from the GitHub repository.
+1. Download the tool: Clone or download the isbdwordmod.py from the GitHub repository.
 - Give Permission:
-```chmod +x isbdwordmod.py```
+
+$ chmod +x isbdwordmod.py
 
 - Move the script to a binary directory:
--- To use isbdwordmod from any location in your terminal, you'll need to move the isbdwordmod.py to a directory included in your system's PATH environment variable.
+--- To use isbdwordmod from any location in your terminal, you'll need to move the isbdwordmod.py to a directory included in your system's PATH environment variable.
 -- You can do this by executing the following command in your terminal:
 ```sudo mv isbdwordmod.py /usr/local/bin/isbdwordmod```
 This command moves the script to the /usr/local/bin/ directory, which is commonly included in the PATH variable. You may need to enter your password to authorize the move.
@@ -36,4 +37,4 @@ This command will check for updates on the GitHub repository and update the tool
 The ISBD Wordlist Modifier Tool is developed and maintained by Md Mirajul Haque Miraj. For any inquiries or feedback, please contact:
 
 LinkedIn: [Md Mirajul Haque Miraj](https://www.linkedin.com/in/mdmirajulhaque/)
-Facebook: [Mirajul Haque Miraj](https://www.facebook.com/MirajulHaqueOfficial.ME/)
+Facebook: [Md Mirajul Haque Miraj](https://www.facebook.com/MirajulHaqueOfficial.ME/)
