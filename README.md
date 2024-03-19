@@ -12,13 +12,18 @@ Link: https://github.com/MirajulHaque/isbdwordmod
 ```bash
 git clone https://github.com/MirajulHaque/isbdwordmod.git
 ```
-2. Give Permission:
+2. Change Directory
+```bash
+cd isbdwordmod
+```
+
+3. Give Permission:
 
 ```bash 
 chmod +x isbdwordmod.py
 ```
 
-3. Move the script to a binary directory:
+4. Move the script to a binary directory:
 - To use isbdwordmod from any location in your terminal, you'll need to move the isbdwordmod.py to a directory included in your system's PATH environment variable.
 - You can do this by executing the following command in your terminal:
 ```bash 
