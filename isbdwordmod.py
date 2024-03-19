@@ -83,7 +83,7 @@ def main():
     print(f"Version: {version}")
 
     # Parse command-line arguments
-    parser = argparse.ArgumentParser(prog="isbdwordmod", description="ISBD Wordlist Modifier Tool")
+    parser = argparse.ArgumentParser(prog="isbdwordmod", description="InfoSecBD Simple Wordlist Modifier Tool")
     parser.add_argument("-f", "--file", help="Wordlist file name with extension")
     parser.add_argument("-i", "--interval", type=int, help="Interval for adding the word")
     parser.add_argument("-s", "--suffix", help="String to be added after each interval")
